@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>السيرة الذاتية</title>
+    <title>CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,6 +17,7 @@
             background-color: white;
             padding: 20px;
             box-shadow: 5px 6px 2cqmin rgba(3, 2, 1, 2.1);
+            animation: myAnidm 2s ease 0s 1 normal forwards;
         }
         h1 {
             text-align: center;
@@ -24,31 +25,168 @@
         h2 {
             border-bottom: 2px solid #ddd;
             padding-bottom: 5px;
+            animation: myAnim 2s ease 0.2s 1 normal forwards;
+            color:maroon
         }
         p {
             line-height: 1.6;
+            animation: myAnimt 2s ease 0.2s 1 normal forwards;
+            color:crimson
         }
+        @keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+@keyframes myAnimt {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+@keyframes myAnidm {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
     </style>
 </head>
 <body>
     <div class="container">
         <h1>My CV</h1>
-        <h2>My name :</h2>
-        <p>Mostafa Hesham Alatawy</p>
-
+        <h2>My Name :</h2>
+        <b><p>Mostafa Hesham Alatawy</p></b>
         <h2>My Skills :</h2>
-        <p>- HTML</p>
-        <p>-CSS</p>
-        <p>- Java Script</p>
-        <h2>My Experience :</h2>
-        <p>2020 : HTML Developer</p>
-        <p>2021 : HTML CSS Developer</p>
-        <p>2022 : Front End Developer</p>
-        <p>2023 : Front End Developer</p>
-        <p>2024 : Front End Developer</p>
+        <b><p>- HTML</p></b>
+        <b><p>- CSS</p></b>
+        <b><p>- Java Script</p></b>
+        <b><h2>My Experience :</h2></b>
+        <b><p>2020 : HTML Developer</p></b>
+        <b><p>2021 : HTML CSS Developer</p></b>
+        <b><p>2022 : Front End Developer</p></b>
+        <b><p>2023 : Front End Developer</p></b>
+        <b><p>2024 : Front End Developer</p></b>
         <h2>Achievments:</h2>
-        <p>Coded https://mdpro-chatbot.tiiny.site ( gamini )</p>
-        <p>Coded many websites like MDpro website</p>
+        <b><p>Coded https://mdpro-chatbot.tiiny.site ( gamini )</p></b>
+        <b><p>Coded many websites like MDpro website</p></b>
+        <h2>Languages :</h2>
+        <b><p>Arabic</p></b>
+        <b><p>English</p></b>
+        <b><p>French</p></b>
+        <b><p>Turkish</p></b>
     </div>
 </body>
 </html>
